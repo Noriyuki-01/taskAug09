@@ -13,9 +13,14 @@
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
 
+    <link rel="stylesheet" href="/bootstrap.css">
+    </link>
+
   </head>
 
   <body>
+    <p style="color:green"><%=  notice %></p>
+    <p style="color:green"><%=  alert %></p>
     <%= yield %>
   </body>
 </html>
